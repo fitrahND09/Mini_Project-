@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Learning Code - Belajar HTML & CSS</title>
 
-    <!-- Fonts & Icons -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
       rel="stylesheet"
@@ -15,21 +14,18 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
 
-    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
 
-    <!-- Custom CSS (punya kamu) -->
     <link href="style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <!-- Navbar -->
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#">Learning Code</a>
+        <a class="navbar-brand fw-bold" href="index.html">Learning Code</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -45,35 +41,33 @@
           <ul class="navbar-nav gap-3">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item">
-              <a class="nav-link" href="#kursus">Kursus</a>
+              <a class="nav-link" href="index.html#produk">Kursus</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#tentang">Tentang</a>
+              <a class="nav-link" href="index.html#tentang">Tentang</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#kontak">Kontak</a>
+              <a class="nav-link" href="index.html#kontak">Kontak</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="container mt-5 p-5 rounded-3 hero-section text-center">
+    <section class="container mt-5 p-5 rounded-3 bgdiv text-center">
       <h1 class="fw-bold">
-        <i></i> Belajar HTML & CSS
+        Belajar HTML & CSS
       </h1>
       <p class="lead mt-3">
-         Sebagai Web Developer kita harus memahami terlebih dahulu tentang dasar-dasar HTML dan
+         Sebagai Web Developer, kita harus memahami terlebih dahulu tentang dasar-dasar HTML dan
         CSS!
       </p>
      
     </section>
 
-    <!-- Penjelasan HTML -->
     <section class="container my-5 animasi" id="html">
       <div class="row align-items-center">
-        <div class="col-md-4">
+        <div class="col-md-6">
           <img
             src="https://www.w3schools.com/html/img_sem_elements.gif"
             alt="Struktur HTML"
@@ -85,12 +79,11 @@
           <br>
           <p>
             <strong>HTML (HyperText Markup Language)</strong> adalah bahasa
-            markup standar yang digunakan untuk membuat halaman web. HTML
-            bekerja dengan menyusun elemen-elemen seperti teks, gambar, link,
-            dan struktur lainnya di dalam halaman web.
+            markup standar yang digunakan untuk membuat kerangka halaman web. HTML
+            bekerja dengan menyusun elemen-elemen seperti teks, gambar, dan link.
           </p>
           <p>
-            Apa saja elemen di HTML: Apa saja elemen di HTML:
+            Elemen-elemen utama dalam HTML:
             <br />
             <code>&lt;header&gt;</code> | Menyimpan bagian kepala situs,
             biasanya berisi logo atau judul. <br />
@@ -102,12 +95,10 @@
             <code>&lt;footer&gt;</code> | Bagian bawah halaman, biasanya untuk
             hak cipta atau kontak.
           </p>
-          <p>HTML menjadi fondasi dari setiap halaman web di dunia.</p>
         </div>
       </div>
     </section>
 
-    <!-- Penjelasan CSS -->
     <section class="container my-5 animasi" id="css">
       <div class="row align-items-center">
         <div class="col-md-6 order-md-2">
@@ -137,14 +128,12 @@
       </div>
     </section>
 
-    <!-- Footer -->
     <footer class="text-center bg-dark text-white py-4 mt-5">
       <p>
         &copy; 2025 Learning Code Indonesia.
       </p>
     </footer>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

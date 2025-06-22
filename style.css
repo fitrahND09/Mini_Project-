@@ -142,3 +142,36 @@ footer {
 .centerdiv {
   text-align: center;
 }
+/* ...existing code... */
+.product-card {
+  background: #292945;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(30,30,47,0.08);
+  padding: 24px 18px 18px 18px;
+  min-height: 430px; /* Atur tinggi minimum card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.product-card img {
+  width: 100%;
+  max-width: 220px;
+  height: 140px; /* Atur tinggi gambar agar seragam */
+  object-fit: cover;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.product-card h5,
+.product-card .produk-text {
+  flex-shrink: 0;
+}
+
+.produk-text {
+  margin-top: auto; /* Agar deskripsi selalu di bawah */
+}
+/* ...existing code... */
