@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Learning Code - Mengenal C++</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Learning Code</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#produk">Kursus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-lg mt-4 p-4 p-md-5 border border-primary-subtle bgdiv rounded-3">
+        <h1 class="display-5 fw-bold">Mengenal C++</h1>
+        <p class="lead mt-3">
+            Ingat pepatah "tak kenal maka tak sayang"? Di sini kita akan mengenal bahasa pemrograman C++ lebih dekat.
+        </p>
+        <hr class="my-4" />
+
+        <div class="row align-items-center mb-4">
+            <div class="col-md-8">
+                <h3>Awal Mula: "C with Classes"</h3>
+                <p>
+                    Kisah C++ dimulai pada akhir tahun 1979 di Bell Laboratories, oleh seorang ilmuwan komputer asal Denmark bernama <strong>Bjarne Stroustrup</strong>. Kala itu, Dr. Stroustrup ingin menggabungkan kecepatan bahasa C dengan kemampuan <em>object-oriented</em> dari bahasa Simula.
+                </p>
+                <p>
+                    Dari sinilah muncul ide fundamentalnya: mengembangkan serangkaian ekstensi untuk bahasa C, yang pada awalnya ia sebut "C with Classes".
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/da/BjarneStroustrup.jpg"
+                  alt="Bjarne Stroustrup"
+                  class="img-fluid rounded shadow"
+                />
+                <figcaption class="text-center mt-2" style="font-size: 0.9em;">
+                  Bjarne Stroustrup, Kreator C++
+                </figcaption>
+            </div>
+        </div>
+
+        <h3>Kelahiran Nama "C++"</h3>
+        <p>
+            Seiring berjalannya waktu, "C with Classes" terus dikembangkan dengan fitur seperti <em>virtual functions</em> dan <em>templates</em>. Pada tahun 1983, nama ini dirasa tidak lagi cukup.
+        </p>
+        <p>
+            Nama <strong>C++</strong> diusulkan oleh rekannya, Rick Mascitti. Dalam bahasa C, operator <code>++</code> adalah operator increment. Dengan demikian, nama "C++" secara simbolis berarti "satu tingkat di atas C".
+        </p>
+
+        <h3 class="mt-4">Standarisasi dan Evolusi Modern</h3>
+        <p>
+            Untuk memastikan konsistensi, proses standarisasi C++ pun dimulai, menghasilkan beberapa versi utama:
+        </p>
+        <ul>
+            <li><strong>C++98:</strong> Standar internasional pertama yang menjadi fondasi C++ modern, termasuk <em>Standard Template Library</em> (STL).</li>
+            <li><strong>C++03:</strong> Pembaruan minor untuk memperbaiki isu teknis dari versi sebelumnya.</li>
+            <li><strong>C++11:</strong> Sebuah lompatan besar dengan fitur baru yang signifikan seperti <code>auto</code>, <em>lambda expressions</em>, dan <em>smart pointers</em>.</li>
+            <li><strong>C++14, C++17, C++20, C++23:</strong> Komitmen rilis tiga tahunan yang terus menyempurnakan bahasa ini untuk berbagai keperluan, dari game engine hingga aplikasi finansial.</li>
+        </ul>
+
+        <hr class="my-4">
+
+        <p class="produk-text">
+            Singkatnya, C++ lahir dari kebutuhan untuk menggabungkan efisiensi <em>low-level</em> dengan abstraksi <em>high-level</em>, dan terus berevolusi hingga hari ini sebagai salah satu bahasa pemrograman paling kuat di dunia.
+        </p>
+    </div>
+
+    <section id="kontak" class="py-5 bg-dark text-white text-center">
+      <div class="container">
+        <h2 class="fw-bold mb-4">Hubungi Kami</h2>
+        <p>Ikuti dan terhubung dengan kami di sosial media:</p>
+        <div class="fs-3 d-flex justify-content-center gap-4 mb-3">
+          <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+          <a href="mailto:fitrahnauli09@gmail.com" class="text-white">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <p>Email: info@learningcode.id | Telepon: +62 812-3456-7890</p>
+      </div>
+    </section>
+
+    <footer class="text-center py-3">
+      <div class="container">
+        <p class="mb-0">&copy; 2025 Learning Code Indonesia</p>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </footer>
+  </body>
+</html>
